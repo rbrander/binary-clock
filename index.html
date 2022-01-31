@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Binary Clock</title>
+    <script src="./index.js" defer="true"></script>
+    <style>
+      html { background-color: black; color: white;}
+      .dot {
+        border-radius: 100px;
+        min-height: 20px;
+        min-width: 20px;
+        display: inline-block;
+      }
+      .off { background-color: #666; }
+      .on { background-color: #3d3; }
+    </style>
+  </head>
+  <body>
+    <h1>Binary Clock</h1>
+    <hr />
+    <div class="container">
+      <div id="hoursRow">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <code class="value"></code>
+      </div>
+      <div id="minutesRow">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <code class="value"></code>
+      </div>
+      <div id="secondsRow">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <code class="value"></code>
+      </div>
+    </div>
+  </body>
+</html>
